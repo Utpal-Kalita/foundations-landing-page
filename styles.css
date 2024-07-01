@@ -146,41 +146,48 @@ p.main {
 
 p.author {
     display: flex;
-    justify-content: flex-end;
+    
     font-size: 30px;
+    justify-content: flex-end;
 }
 
 .call-action{ 
-    background-color: royalblue;
-    margin: 200px 100px;
-    padding: 1%;
+    background-color: #3882f6;
+    margin: 150px 100px;
+    padding: 50px;
+    border-radius: 15px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    gap: 30px;
+    flex-wrap: wrap;
 
 }
 
 button.sign2{
-    background: royalblue;
+    background: #3882f6;
     border: 1px solid hsl(0, 0%, 87%);
     color: white;
     cursor: pointer;
-    padding: 16px 32px;
+    
     border-radius: 8px;
-    display: flex;
-    font-size: large;
-    justify-content: end;
-    align-items: center;
    
+    
+    font-size: large;
 }
 
-.cta{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    
+.footer-container {
+    background-color: #1F2937;
+    padding: 36px;
+    text-align: center;
+    font-size: larger;
+    color: #ddd;
+
+
 }
+
+
+
+
+  
 
 
 
