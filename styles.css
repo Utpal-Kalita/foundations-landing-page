@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+   
+}
+
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 0;
+    
+}
+
+.logo{
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+}
+
+.header-links{
+font-size: 18px;
+color: #f9faf8;
+
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.hero-main-text{
+    background-color: #1F2937;
+    margin: 0;
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+
+
+}
+
+.content1{
+    
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    flex: 1;
+    padding: 16px;
+  width: 300px;
+  flex-wrap: wrap;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #f9faf8;
+}
+
+p {
+    font-size: 18px;
+    color: #f9faf8;
+    text-align:start
+}
+
+button.signup {
+    background: royalblue;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+    padding: 16px 32px;
+    border-radius: 8px;
+    align-self:flex-start;
+    font-size: large;
+}
+
+.information-section{
+   
+}
+
+h2 { text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
