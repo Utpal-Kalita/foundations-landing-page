@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
    
 }
 
@@ -86,13 +87,104 @@ button.signup {
 }
 
 .information-section{
+    text-align: center;
    
 }
 
 h2 { text-align: center;
     color: black;
     font-family: 'Courier New', Courier, monospace;
+    padding: 100px;
+    font-size: xx-large;
 }
+
+img.info {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-self:center ;
+    padding-bottom: 200px;
+    
+  }
+  
+  .info-item {
+    flex: 1;
+    text-align: center;
+
+}
+
+.info-item img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 5px solid rgb(17, 211, 236);
+
+}
+
+.quote{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+    font-family:fantasy;
+}
+
+p.main {
+    font-size: 60px;
+}
+
+p.author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+}
+
+.call-action{ 
+    background-color: royalblue;
+    margin: 200px 100px;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+
+}
+
+button.sign2{
+    background: royalblue;
+    border: 1px solid hsl(0, 0%, 87%);
+    color: white;
+    cursor: pointer;
+    padding: 16px 32px;
+    border-radius: 8px;
+    display: flex;
+    font-size: large;
+    justify-content: end;
+    align-items: center;
+   
+}
+
+.cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+
+
+
 
 
 
